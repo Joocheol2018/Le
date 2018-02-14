@@ -1,5 +1,5 @@
 ---
-title       : Insert the chapter title here
+title       : Hello
 description : Insert the chapter description here
 attachments :
   slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
@@ -135,3 +135,43 @@ test_function("matplotlib.pyplot.show")
 
 success_msg("Great work!")
 ```
+
+---
+---
+title_meta  : Chapter 1
+title       : Python Basics
+description : An introduction to the basic concepts of Python. Learn how to use Python both interactively and through a script. Create your first variables and acquaint yourself with Python's basic data types.
+---
+
+## When to use Python?
+
+```yaml
+type: MultipleChoiceExercise
+lang: python
+xp: 50
+key: 1731456e2d
+```
+
+Python is a pretty versatile language. For which applications can you use Python?
+
+`@instructions`
+- You want to do some quick calculations.
+- For your new business, you want to develop a database-driven website.
+- Your boss asks you to clean and analyze the results of the latest satisfaction survey.
+- All of the above.
+
+`@hint`
+Filip mentioned in the video that Python can be used to build practically any piece of software.
+
+`@pre_exercise_code`
+```{python}
+# pec comes here
+```
+
+`@sct`
+```{python}
+msg1 = "Incorrect. Python can do simple and quick calculations, but it is much more than that!"
+msg2 = "Incorrect. There is a very popular framework to build database-driven websites (Django), but Python can do much more."
+msg3 = "Incorrect. Python is a powerful tool to do data analysis, but you can also use it for other ends."
+msg4 = "Correct! Python is an extremely versatile language."
+test_mc(4, [msg1, msg2, msg3, msg4])
