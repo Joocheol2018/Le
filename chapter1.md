@@ -136,7 +136,7 @@ test_function("matplotlib.pyplot.show")
 success_msg("Great work!")
 ```
 
----
+
 ---
 title_meta  : Chapter 1
 title       : Python Basics
