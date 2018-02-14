@@ -138,10 +138,6 @@ success_msg("Great work!")
 
 
 ---
-title_meta  : Chapter 1
-title       : Python Basics
-description : An introduction to the basic concepts of Python. Learn how to use Python both interactively and through a script. Create your first variables and acquaint yourself with Python's basic data types.
----
 
 ## When to use Python?
 
@@ -175,3 +171,38 @@ msg2 = "Incorrect. There is a very popular framework to build database-driven we
 msg3 = "Incorrect. Python is a powerful tool to do data analysis, but you can also use it for other ends."
 msg4 = "Correct! Python is an extremely versatile language."
 test_mc(4, [msg1, msg2, msg3, msg4])
+
+---
+
+```yaml
+type: NormalExercise
+key: 8102715972
+lang: python
+xp: 100
+skills: 2
+```
+
+
+`@instructions`
+
+`@hint`
+
+`@pre_exercise_code`
+```{python}
+
+```
+
+`@sample_code`
+```{python}
+
+```
+
+`@solution`
+```{python}
+
+```
+
+`@sct`
+```{python}
+
+```
